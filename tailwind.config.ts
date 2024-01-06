@@ -13,6 +13,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily:{
+        'darkblow': ['var(--font-darkblow)'],
+        'oleoscript':['oleo script', 'cursive']
+      },
+      colors:{
+        darkblue: "#043263",
+        lightblue: "#239EFE",
+        ash:"#504E4E",
+        white:"#FFFFFF",
+        lightash:"#EAEAEB"
+      },
+      height:{
+        '88vh': '88vh'
+      },
     },
   },
   plugins: [],
