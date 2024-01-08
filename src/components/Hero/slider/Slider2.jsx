@@ -44,7 +44,7 @@ export default function App() {
         
         pagination={true}
         modules={[EffectCoverflow, Pagination,Autoplay]}
-        className="mySwiper"
+        className="mySwiper "
       >
         <SwiperSlide className='border-2  border-white hover:border-lightblue rounded-lg'>
         <Image src={image1} className='object-cover  h-full  rounded-lg ' alt='image1'/>

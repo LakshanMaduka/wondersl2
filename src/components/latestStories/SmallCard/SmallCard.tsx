@@ -1,21 +1,22 @@
 
-import topImage from '../../../../public/img/.jpg'
+import smImage from '../../../../public/img/garadiella.jpg'
 import { MdLocationPin } from "react-icons/md";
 import ReadMoreButton from '@/components/Buttons/ReadMoreButton';
-
+import Image from "next/image"
 function SmallCard() {
   return (
-    <div className=' h-80  flex mx-24 b p-3 shadow-lg rounded-lg overflow-hidden'>
-    <Image src={topImage} alt='topimage' className='rounded-xl h-full w-[500px] object-cover' />
-        <div className='ml-5'>
+    <div className=' p-3 shadow-lg rounded-lg flex-wrap'>
+    <Image src={smImage} alt='topimage' className='rounded-xl h-[250px] w-full object-cover float-left' />
+        <div className='mt-3'>
 
-        <h2 className='font-semibold text-3xl'>Sigiriya</h2>
-        <p className='mb-3 mt-1 w-full text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta, pariatur repudiandae iusto numquam eius, eum ratione nam excepturi facere, animi sint cum nobis. Dolorum asperiores esse culpa doloremque nemo!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta, pariatur repudiandae iusto numquam eius, eum ratione nam excepturi facere, animi sint cum nobis. Dolorum asperiores esse culpa doloremque nemo!</p>
-        <div className='text-3xl flex items-center'><MdLocationPin/><span className='text-sm '>Distance From Colombo: <span className='font-bold'>174 km</span></span></div>
+        <h2 className='font-semibold text-xl'>Garandi Ella</h2>
+        
+        <div className='text-xl flex items-center '><MdLocationPin /><span className='text-sm '>Distance From Colombo: <span className='font-bold'>174 km</span></span></div>
         <div ><ReadMoreButton/></div>
-   </div>
+      </div>
     </div>
   )
 }
 
 export default SmallCard
+// lg:w-60  xl:w-80  2xl:w-96

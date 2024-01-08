@@ -15,7 +15,7 @@ function BodyHome() {
                 EXPLORE <span> <Explore/> </span>
             </div>
         </div>
-        <div className=" mr-20 my-20 flex items-center justify-center">
+        <div className=" mr-20 my-20 hidden  md:flex items-center justify-center">
           <Slider2 />
         </div>
        </div>

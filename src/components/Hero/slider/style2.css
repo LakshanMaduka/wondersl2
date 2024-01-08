@@ -11,10 +11,20 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 270px;
-  height: 500px;
+  width: 100px;
+  height: 450px;
   
   
+}
+@media screen and (min-width: 1280px) {
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+    height: 500px;
+    
+    
+  }
 }
 
 .swiper-slide img {
