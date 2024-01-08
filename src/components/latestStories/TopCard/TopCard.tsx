@@ -8,7 +8,7 @@ function TopCard() {
   return (
     
 
-  <div className='xl:flex inline-block  mx-24 b p-3 shadow-lg rounded-lg overflow-hidden text-wrap '>
+  <div className='xl:flex inline-block mx-6 sm:mx-24 b p-3 shadow-lg rounded-lg  text-wrap '>
     <Image src={topImage} alt='topimage' className='rounded-xl h-[300px] w-full object-cover ' />
         <div className='ml-5 mt-3 '>
 
