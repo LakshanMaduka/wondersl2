@@ -20,7 +20,7 @@ function Footer() {
           <div className='h-10 w-10 items-center justify-center flex'> <AiFillInstagram className = "hover:text-xl hover:text-lightblue"/></div>
           <div className='h-10 w-10 items-center justify-center flex'> <FaTwitterSquare className = "hover:text-xl hover:text-lightblue"/></div>
          </div>
-         <Link href={"https://lakshanmaduka.netlify.app/"} className='sm:text-md text-sm'>Copyright © 2024 Lakshan Maduka. All Rights reserved.</Link>
+         <Link href={"https://lakshanmaduka.netlify.app/"} className='sm:text-md text-sm text-center'>Copyright © 2024 Lakshan Maduka. All Rights reserved.</Link>
       </div>
     </div>
   )
