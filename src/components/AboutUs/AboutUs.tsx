@@ -1,13 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
 import AboutImg from '../../../public/img/Travel1.jpg'
+import { Span } from 'next/dist/trace'
+import SocialMediaComp from '../SocialMediaComp/SocialMediaComp'
 
 function AboutUs() {
   return (
-    <div className=''>
+    <section id="about">
+        <div className='mt-10'>
         <div className='text-darkblue justify-center items-center w-full flex text-4xl uppercase font-semibold line '>ABOUT US</div>
         
-       <div className='grid md:grid-cols-[300px,auto] mt-10  md:mx-24 mb-10'>
+       <div className='grid md:grid-cols-[400px,auto] mt-10 mx-5 lg:mx-40 mb-10'>
          <div className='hidden md:flex'><Image className='h-full object-cover bg-left rounded-lg' src={AboutImg} alt=''/></div>
          
          <div className='p-8 text-justify '><h2 className='text-xl font-semibold'>Discovering Sri Lanka Through My Lens</h2>
@@ -22,9 +25,14 @@ function AboutUs() {
          <p className='pt-4'>Life is short, and the world is vast. I live by the mantra of collecting memories, not things. Through my lens, I aim to inspire you to embark on your own adventures, discover new horizons, and appreciate the beauty that surrounds us.</p>
          
          <p className='pt-4'>{`Let's swap stories, share recommendations, and build a community of travel enthusiasts.`}</p>
+         <div className='flex justify-start items-center mt-3'>
+         <h1 className=''>Follow Us</h1>
+         <SocialMediaComp color='text-darkblue'/>
+         </div>
          </div>
        </div>
     </div>
+    </section>
   )
 }
 

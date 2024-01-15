@@ -17,8 +17,15 @@ const config: Config = {
         'darkblow': ['var(--font-darkblow)'],
         'oleoscript':['oleo script', 'cursive']
       },
+      // colors:{
+      //   darkblue: "#043263",
+      //   lightblue: "#239EFE",
+      //   ash:"#504E4E",
+      //   white:"#FFFFFF",
+      //   lightash:"#EAEAEB"
+      // },
       colors:{
-        darkblue: "#043263",
+        darkblue: "#091D36",
         lightblue: "#239EFE",
         ash:"#504E4E",
         white:"#FFFFFF",
@@ -29,6 +36,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/line-clamp")
+  ],
 }
 export default config

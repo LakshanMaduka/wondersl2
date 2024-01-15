@@ -2,6 +2,7 @@ import React from 'react'
 import TopCard from './TopCard/TopCard'
 import SmallCard from './SmallCard/SmallCard'
 import ExploreButton from '@/components/Buttons/ExploreButton'
+import Link from 'next/link'
 
 function LatestStories() {
   return (
@@ -12,9 +13,10 @@ function LatestStories() {
         <div className='mx-6 sm:mx-24 grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-2 justify-between mt-5'>
         <SmallCard/>
         <SmallCard/>
-        <SmallCard/></div>
+        <SmallCard/>
+        </div>
         
-       <div className='flex justify-center items-center'> <ExploreButton className='m-10  '/></div>
+       <div className='flex justify-center items-center'> <Link href={'/stories'}><ExploreButton className='mt-10 ' name='Explore More'/></Link></div>
     </div>
     </>
   )

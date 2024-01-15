@@ -9,7 +9,7 @@ function SmallCard() {
     <Image src={smImage} alt='topimage' className='rounded-xl h-[250px] w-full object-cover float-left' />
         <div className='mt-3'>
 
-        <h2 className='font-semibold text-xl'>Garandi Ella</h2>
+        <h2 className='font-semibold text-xl mt-2'>Garandi Ella</h2>
         
         <div className='text-xl flex items-center '><MdLocationPin /><span className='text-sm '>Distance From Colombo: <span className='font-bold'>174 km</span></span></div>
         <div ><ReadMoreButton/></div>
